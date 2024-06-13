@@ -4,4 +4,12 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
 
+    <include file="classpath:db/changelog/change-sets/001_create_table_author.sql"/>
+    <include file="classpath:db/changelog/change-sets/002_create_table_publisher.sql"/>
+    <include file="classpath:db/changelog/change-sets/003_create_table_genre.sql"/>
+    <include file="classpath:db/changelog/change-sets/004_create_table_language.sql"/>
+    <include file="classpath:db/changelog/change-sets/005_create_table_book.sql"/>
+    <include file="classpath:db/changelog/change-sets/006_create_table_book_author_relation.sql"/>
+    <include file="classpath:db/changelog/change-sets/007_create_table_book_language_relation.sql"/>
+
 </databaseChangeLog>
